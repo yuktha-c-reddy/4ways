@@ -2,9 +2,9 @@
 
 ###To run this project
 
-1.Download the zip file / clone the git https.
-2. cd projectdir
-3. npx vite => frontend , you will be redirected to a localhost port 
+1.Download the zip file / clone the git https.  
+2. cd projectdir  
+3. npx vite => frontend , you will be redirected to a localhost port  
 4. npm start=> backend in a different terminal under same dir
 
 

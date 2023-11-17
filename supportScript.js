@@ -27,7 +27,7 @@ geometry.scale(-1, 1, 1);
 
 // Create a basic mesh material and apply the texture to it.
 var material = new THREE.MeshBasicMaterial({
-    color: new THREE.Color("red")
+    color: new THREE.Color("#f4b536")
 });
 
 // Create a mesh with the geometry and material

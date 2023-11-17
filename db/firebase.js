@@ -1,6 +1,7 @@
 // Import the functions you need from the SDKs you need
 const { initializeApp } = require("firebase/app");
 const { getStorage } = require("firebase/storage");
+const { getDatabase } = require("firebase/database");
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -9,6 +10,7 @@ const { getStorage } = require("firebase/storage");
 const firebaseConfig = {
   apiKey: "AIzaSyD6JmrA1EuGebh_72fqag3GLLUCqf-yY7w",
   authDomain: "fourways-4ways.firebaseapp.com",
+  databaseURL: "https://fourways-4ways-default-rtdb.firebaseio.com",
   projectId: "fourways-4ways",
   storageBucket: "fourways-4ways.appspot.com",
   messagingSenderId: "247288921432",
@@ -20,4 +22,7 @@ const firebaseConfig = {
 exports.app = initializeApp(firebaseConfig);
 // Initialize Cloud Storage and get a reference to the service
 exports.storage = getStorage(module.app);
+
+exports.db=getDatabase(module.app)
+
 

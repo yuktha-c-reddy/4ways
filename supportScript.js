@@ -78,8 +78,10 @@ function handleImageSelection(id) {
         </div>
       </li>
     </ul>
+    <button class="btn btn-outline-info" id="createProject" style="width:80%; margin-inline: 10%; margin-top: 20px;" type="button">Create Project!</button>
   </div>
 `
+    
     selectedNodeIndex=nodeIndex;
     var tempEle=document.createElement('div');
     tempEle.innerHTML=editInnerHtml;
@@ -87,7 +89,7 @@ function handleImageSelection(id) {
     console.log(tempEle);
     document.getElementById("editNode").replaceWith(tempEle);
     document.getElementById("updateButton").addEventListener("click",updateNode);
-
+    document.getElementById("createProject").addEventListener("click", createProject);
 }
 
 function updateNode(){
@@ -170,6 +172,7 @@ class Node {
     }
 }
 
+document.getElementById("createProject").addEventListener("click", createProject);
 
 //************************************apis calls**********************************//
 
@@ -184,5 +187,24 @@ function uploadImageDB(img,id){
         
     }).then(response =>console.log(response))
     .catch(err=>console.log(err));
+}
+
+function createProject(){
+    console.log("called")
+    fetch(baseUrl+"uploadNodes",{
+        method:'POST',
+        body: JSON.stringify({
+            data: JSON.stringify(arr.map((a)=>{
+                a.img=undefined;
+                return a;
+            }))
+        }),
+        headers: {
+          "Content-type": "application/json; charset=UTF-8"
+        }
+        
+    }).then(response =>console.log(response))
+    .catch(err=>console.log(err));
+
 }
 

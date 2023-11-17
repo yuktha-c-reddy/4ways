@@ -54,25 +54,25 @@ function handleImageSelection(id) {
         <ul class="list-group">
         <li class="list-group-item" style=" display: flex; justify-content: space-between; align-content: center;"><h1 class="display-3" style="display: inline;">${arr[nodeIndex].id}</h1><button type="button" class="btn btn-outline-primary" id="updateButton">Update Node</button></li>
         <li class="list-group-item">
-            <div class="form-floating mb-3">
+            <div class="form-floating">
                 <input type="email" direction="north" class="direc form-control" id="floatingInput" value="${arr[nodeIndex].north}">
                 <label for="floatingInput">North</label>
             </div>
         </li>
         <li class="list-group-item">
-        <div class="form-floating mb-3">
+        <div class="form-floating">
           <input type="email" class="form-control direc" direction="east" id="floatingInput" value="${arr[nodeIndex].east}">
           <label for="floatingInput">East</label>
         </div>
       </li>
       <li class="list-group-item">
-        <div class="form-floating mb-3">
+        <div class="form-floating">
           <input type="email" class="form-control direc" direction="south" id="floatingInput" value="${arr[nodeIndex].south}">
           <label for="floatingInput">South</label>
         </div>
       </li>
       <li class="list-group-item">
-        <div class="form-floating mb-3">
+        <div class="form-floating">
           <input type="email" class="form-control direc" direction="west" id="floatingInput" value="${arr[nodeIndex].west}">
           <label for="floatingInput">West</label>
         </div>

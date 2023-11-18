@@ -14,6 +14,9 @@
 
 ![Screenshot from 2023-11-17 20-28-24](https://github.com/JagnathReddy/4ways/assets/70469290/c765e503-4cba-4f03-9f85-7efb68065d23)
 
+![image](https://github.com/JagnathReddy/4ways/assets/70469290/6bb5cea0-fb32-48db-81ed-df133a099b3c)
+
+
 
 
 

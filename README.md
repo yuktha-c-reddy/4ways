@@ -1,6 +1,6 @@
 # 4ways
 
-###To run this project
+<h2>To run this project</h2>
 
 1.Download the zip file / clone the git https.  
 2. cd projectdir  

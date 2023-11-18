@@ -8,21 +8,21 @@
 4. npm start=> backend in a different terminal under same dir
 5. Copy the Node Id from the workspace and paste it in the viewer id to explore!
 
-##About 4Ways
+<h2>About 4Ways</h2>
 
-Objective/Aim:
+<h4>Objective/Aim:</h4>
 
 To create an interactive and immersive 360-degree image viewer that
 allows users to upload and view panoramic photos. This can be used
 to create a virtual tour of a location or to showcase a product or
 service or to show temporary changes in places for events.
 
-Technical Details:
+<h4>Technical Details:</h4>
 Frontend : Three.js , html, bootstrap and javascript
 Backend: Express.js
 Database : Firebase
 
-##How it works
+<h2>How it works</h2>
 
 When user adds a image to the workspace , the image gets uploaded
 in firebase cloud storage with a unique key, each image is associated
@@ -38,7 +38,7 @@ When the other user starts navigating these images are loaded from
 cloud storage.
 
 
-##UI 
+<h1>UI </h1>
 ![image](https://github.com/JagnathReddy/4ways/assets/70469290/869366de-82c6-4fa5-8313-a58de2c1dc65)
 
 ![image](https://github.com/JagnathReddy/4ways/assets/70469290/dc54dcbb-4aa0-4b0b-9894-8eefdd1c460b)

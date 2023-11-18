@@ -10,7 +10,8 @@
 
 
 ##UI 
-![Screenshot from 2023-11-17 20-21-47](https://github.com/JagnathReddy/4ways/assets/70469290/7ec0a373-63c3-4ba1-9a89-112dcde4a528)
+![image](https://github.com/JagnathReddy/4ways/assets/70469290/869366de-82c6-4fa5-8313-a58de2c1dc65)
+
 
 ![Screenshot from 2023-11-17 20-28-24](https://github.com/JagnathReddy/4ways/assets/70469290/c765e503-4cba-4f03-9f85-7efb68065d23)
 

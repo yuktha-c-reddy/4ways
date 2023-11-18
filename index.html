@@ -6,12 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>4Ways</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
-  <div id="mainframe">
+  <button type="button" id="workspaceButton" class="btn btn-outline-primary">workspace</button>
+  <button type="button" id="viewerButton" class="btn btn-outline-primary">viewer</button>
+  
+  <div id="mainframe" style="display: none;">
     <div id="allNodes">
       <div id="nodeCollection" class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
@@ -58,10 +62,43 @@
       </div>
     </div>
   </div>
+  <div id="viewer" style="display: none;">
+    <div class="input-group p-2" id="inputG" style="width: 40%;">   
+      <input type="text" class="form-control" id="idIn" placeholder="ID" aria-label="ID" aria-describedby="button-addon2">
+      <button class="btn btn-outline-secondary" type="button" id="goButton">Go!</button>
+    </div>
+    <div id="viewerWindow" style="width: 60%; height: 80%; background-color: rebeccapurple; ">
+    </div><div id="control" style="z-index: 100; position: absolute; bottom: 30px;">
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+          <button id="btn-north" class="btn btn-primary"><i class="bi bi-caret-up-fill"></i></button>
+        </div>
+        <div class="col-4"></div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <button id="btn-west" class="btn btn-primary"><i class="bi bi-caret-left-fill"></i></button>
+        </div>
+        <div class="col-4"></div>
+        <div class="col-4">
+          <button id="btn-east" class="btn btn-primary"><i class="bi bi-caret-right-fill"></i></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+          <button id="btn-south" class="btn btn-primary"><i class="bi bi-caret-down-fill"></i></button>
+        </div>
+        <div class="col-4"></div>
+      </div>
+    </div>
+  </div>
   <script type="module" src="supportScript.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+
 </body>
 
 </html>

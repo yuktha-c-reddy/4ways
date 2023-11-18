@@ -12,8 +12,9 @@
 ##UI 
 ![image](https://github.com/JagnathReddy/4ways/assets/70469290/869366de-82c6-4fa5-8313-a58de2c1dc65)
 
+![image](https://github.com/JagnathReddy/4ways/assets/70469290/dc54dcbb-4aa0-4b0b-9894-8eefdd1c460b)
 
-![Screenshot from 2023-11-17 20-28-24](https://github.com/JagnathReddy/4ways/assets/70469290/c765e503-4cba-4f03-9f85-7efb68065d23)
+
 
 ![image](https://github.com/JagnathReddy/4ways/assets/70469290/6bb5cea0-fb32-48db-81ed-df133a099b3c)
 

@@ -39,7 +39,9 @@ cloud storage.
 
 
 <h1>UI </h1>
-![image](https://github.com/JagnathReddy/4ways/assets/70469290/869366de-82c6-4fa5-8313-a58de2c1dc65)
+
+![image](https://github.com/JagnathReddy/4ways/assets/70469290/769b9ac2-17f1-4d3c-8451-3c6e635a5724)
+
 
 ![image](https://github.com/JagnathReddy/4ways/assets/70469290/dc54dcbb-4aa0-4b0b-9894-8eefdd1c460b)
 
